@@ -35,7 +35,7 @@ public class OperationPrime {
            /// RESULTADO DA DIVISAO DO NUMERO PELO O INTERVALOR
            resultNoPrime = (IntObjct / i);
             
-           /// SE O RESULTADO MULTIPLICADO PELO O INTERVALOR DO NUMERO PRIMO FOR IGUAL AO NUMERO PRIMO, ENTAO NAO E PRIMO
+           /// SE O RESULTADO MULTIPLICADO PELO O INTERVALOR DO NUMERO PRIMO FOR IGUAL AO NUMERO DA ENTRADA, ENTAO NAO E PRIMO
            if((resultNoPrime * i) == IntObjct){
                return "no_prime";
            }

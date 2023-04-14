@@ -53,15 +53,15 @@ public class Exercicios_Java_Sala3 {
         for(var roundProx = 0; roundProx < quatRodadas; roundProx++){
             
             /// PASSANDO O VALOR DA RODADA
-            rodada[roundProx] = geradorDados.nextInt(7) + 1;
+            rodada[roundProx] = geradorDados.nextInt(6) + 1;
             
             /// FOR PARA INICIALIZAR NOVOS VALORES AOS JOGADORES
             for(var valueJogador = 0; valueJogador < quatJogadores; valueJogador++){
-                jogadores[valueJogador] = geradorDados.nextInt(7) + 1;
+                jogadores[valueJogador] = geradorDados.nextInt(6) + 1;
             }
             
-            /// FOR PARA COMPARAR CADA VALOR DOS JOGADORES CORRESPOnDENDO AO VALOR DA RODADA
-            for(var compareValuePlay : jogadores){
+            /// FOR PARA COMPARAR CADA VALOR DOS JOGADORES CORRESPONDENDO AO VALOR DA RODADA
+            for(var compareValuePlay: jogadores){
                 
                 /// O PRIMEIRO QUE VENCEU, SERA O CAMPEAO, APESAR DE HAVER UM OUTRO QUE TEM O MESMO NUMERO
                 if(compareValuePlay == rodada[roundProx]){

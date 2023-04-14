@@ -24,13 +24,12 @@ public class Exercicios_Java_Sala10 {
     public static void main(String[] args) {
         
         /// DADOS DA DATA
-        short day = 1;
-        EnumDate mes = EnumDate.JULY;
-        int anoBissexto = 5000;
-        int anoNo = 2023;
+        short day = 28;
+        EnumDate mes = EnumDate.FEBRUARY;
+        int anoNo = 2024;
         
         /// INSTANCIA DO OBJETO DA CLASSE DATA
-        Data caledario = new Data(day, mes, anoBissexto);
+        Data caledario = new Data(day, mes, anoNo);
         
         /// EXIBINDO O PROXIMO DIA
         System.out.println("O proximo dia e: " + caledario.diaPosterio());

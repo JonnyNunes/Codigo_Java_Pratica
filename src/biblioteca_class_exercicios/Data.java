@@ -76,7 +76,7 @@ public class Data{
                 if(getDia() == (getMes().getConstValue() + mesBissexto)){
                     
                     return 1;
-                }else if(getDia() < getMes().getConstValue()){
+                }else if(getDia() < (getMes().getConstValue() + mesBissexto)){
                     
                     return (getDia() + 1);
                 }

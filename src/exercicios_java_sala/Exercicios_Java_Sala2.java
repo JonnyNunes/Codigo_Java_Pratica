@@ -46,7 +46,7 @@ public class Exercicios_Java_Sala2 {
             vetorNumb[i] = read.nextInt();
         }
         
-        /// PASSAR OS VALORES DO VETOR PARA O ATRIBUTO VETOR DA CLASSE E ORGANIZANDO EM ORDDEM CRESCENTE
+        /// PASSAR OS VALORES DO VETOR PARA O ATRIBUTO VETOR DA CLASSE E ORGANIZANDO EM ORDEM CRESCENTE
         vectorOperation.setVectorClass(vectorOperation.organizarOrdemCrescente(vetorNumb));
      
         System.out.println("\n================================================\n");
@@ -57,6 +57,7 @@ public class Exercicios_Java_Sala2 {
             System.out.println("Value: " + vectorOperation.getVectorClass()[i]);
         }
         */
+        
         /// EXIBINDO AS OPERACOES DE MEDIA, DESVIO PADRAO E MEDIANA DO MEU OBJETO DA CLASSE
         System.out.println("Media......: " + vectorOperation.mediaVectorElm(vectorOperation.getVectorClass()));
         System.out.println("Des. Padrao: " + vectorOperation.standardDeviation(vectorOperation.getVectorClass()));

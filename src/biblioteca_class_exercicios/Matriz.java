@@ -21,6 +21,7 @@ public class Matriz {
     public Matriz() {
         this.linha = 0;
         this.coluna = 0;
+        this.bidimendionalArray = new int[0][0];
     }
     
     /// GET E SET
@@ -75,7 +76,7 @@ public class Matriz {
         /// ATRIBUINDO OS VALORES DA MATRIZ PROPRIA A UMA MATRIZ TRANSPOSTA
         for(var i = 0; i < linha; i++){
             for(var j = 0; j < coluna; j++){
-                /// A TRANSPOSTA RECEBER OS VALORES DA LINHA DA PROPRIA COMO EM SUA COLUNA (SEQUENCIALMENTE)
+                /// A TRANSPOSTA RECEBER OS VALORES DA LINHA DA PROPRIA COMO SENDO SUA COLUNA (SEQUENCIALMENTE)
                 bindimensional_headquarters_transports[j][i] = bindimensional_headquarters[i][j]; 
             }
         }
